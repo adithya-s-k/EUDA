@@ -222,7 +222,7 @@ topimage = ImageTk.PhotoImage(topimage)
 label = Label(homeFrame, image = topimage,borderwidth = 0)
 label.place(x=0, y=0)
 
-buttonHome1 = Image.open("Assets\page1_2.png")
+buttonHome1 = Image.open("Assets\page2_2.png")
 buttonHome1 = buttonHome1.resize((525,191), Image.ANTIALIAS)
 buttonHome1 = ImageTk.PhotoImage(buttonHome1)
 startButton = Button(homeFrame,image = buttonHome1 ,command = easy ,borderwidth = 0)
