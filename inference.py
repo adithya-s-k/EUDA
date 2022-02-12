@@ -54,7 +54,7 @@ def inference():
 
 
 			pred = model.predict(np.array([x]))
-			cv2.putText(frame, labels[np.argmax(pred)], (50,50), cv2.FONT_HERSHEY_SIMPLEX, 3, (255,0,0), 7)
+			cv2.putText(frame, labels[np.argmax(pred)], (50,100), cv2.FONT_HERSHEY_SIMPLEX, 2, (255,225,0), 7)
 			
 
 		etime = time.time()
